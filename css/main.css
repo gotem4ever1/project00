@@ -1,0 +1,10 @@
+
+
+.tile {
+  background:white;
+  border:#999 10px groove;
+  width:100px;
+  height:100px;
+  font-size:150px;
+
+}
