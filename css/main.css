@@ -2,9 +2,9 @@
 
 .tile {
   background:white;
-  border:#999 10px groove;
-  width:100px;
-  height:100px;
+  border:#999 20px groove;
+  width:200px;
+  height:200px;
   font-size:150px;
 
 }
