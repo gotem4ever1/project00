@@ -1,9 +1,15 @@
 //Set up a variable for gameover
 //players (X or O, who going first)
 var gameOver = false;
+<<<<<<< HEAD
 var player = '0'
 if (confirm('Is 0 goes first?') === true) {
   player = '0';
+=======
+var player = 'O'
+if (confirm('Is O goes first?') === true) {
+  player = 'O';
+>>>>>>> dcf4a338351e19ed141e87454129225ab17211d4
 } else {
   player = 'X';
 }
@@ -48,6 +54,7 @@ function squareClick (square) { //set up function squareClick with square
 
 function checkAndSwap () {
   checkForWinner('X'); //setup function seperate between players
+<<<<<<< HEAD
   !gameOver && checkForWinner('0');
 
   if (!gameOver) {
@@ -77,6 +84,37 @@ function checkForWinner (value) { //set up function for checkforwinner with valu
     }
   }
 
+=======
+  !gameOver && checkForWinner('O');
+  
+  if (!gameOver) {
+    if (player === 'O')
+      player = 'X';
+    else {
+      player = 'O';
+    }
+  }
+}
+
+function playAgain () {  //set up function for playagain
+  var response = confirm('Play Again?');
+  if (response === true) {
+    alert('let\'s Play!');
+    location.reload();
+  } else {
+    alert('Thanks for playing!');
+  }
+}
+
+function checkForWinner (value) { //set up function for checkforwinner with value
+  for (var i = 0; i < winningCombinations.length; i++) { //statement for determine the winner
+    if (squares[winningCombinations[i][0]] === value && squares[winningCombinations[i][1]] === value && squares[winningCombinations[i][2]] === value) {
+      alert(value + ' Won the Game!');
+      gameOver = true;
+    }
+  }
+
+>>>>>>> dcf4a338351e19ed141e87454129225ab17211d4
   if (gameOver === true) { //check gameover and call function playagain
     playAgain();
   }
