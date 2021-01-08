@@ -53,19 +53,6 @@ Your app must:
 
 ---
 
-### Bonus
-
-These are for extra credit! Don't focus on these until you've hit the core requirements.
-
-* Keep track of **multiple game rounds** with a win counter
-* Allow players to **customize their tokens** (X, O, name, picture, etc)
-* **Get inventive with your styling**, e.g. use hover effects or animations to spiff things up
-* **Use LocalStorage** to persist data locally to allow games to continue after page refresh or loss of internet connectivity
-* **Support custom board sizes**: default is 3x3 but you could allow users to choose a larger board
-* **Support networked multiplayer**: https://www.firebase.com/ has a nice quickstart guide
-* **TRICKIEST**: Create an AI opponent: teach Javascript to play an unbeatable game against you
-
----
 
 ### Necessary Deliverables
 
@@ -98,11 +85,3 @@ That's the link to my game.
 https://gotem4ever1.github.io/project00/index.html
 
 ---
-
-### If You Finish Early
-
-We invite you to work on any or all of the following:
-
-* A more advanced game (Memory? Battleship? Connect Four?)
-* Your Github portfolio site
-* Any other front-end project that interests you
