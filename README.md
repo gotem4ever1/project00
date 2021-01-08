@@ -93,6 +93,10 @@ These are for extra credit! Don't focus on these until you've hit the core requi
 * **[jQuery Docs](http://api.jquery.com)**
 * **[Github Pages](https://pages.github.com)** _(for hosting your game)_
 
+That's the link to my game.
+
+https://gotem4ever1.github.io/project00/index.html
+
 ---
 
 ### If You Finish Early
